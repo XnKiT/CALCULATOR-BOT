@@ -18,12 +18,10 @@
         "API_ID": {
             "description": "Get this value from my.telegram.org",
             "value": "14627413"
-            "required": "True"
         },
         "API_HASH": {
             "description": "Get this value from my.telegram.org",
             "value": "4d5ff4db45a7e931930d0c923a7fb295"
-            "required": "True"
         }
     },
     "stack": "heroku-20",
