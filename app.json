@@ -1,0 +1,41 @@
+{
+    "name": "TELEGRAM MATHS CALCULATOR BOT",
+    "logo": "https://telegra.ph/file/b002d63974bd05ea7a336.jpg",
+    "description": "A SIMPLE TELEGRAM MATHS CALCULATOR BOT,MADE WITH LOVE BY ©LEGEND-ANKIT™",
+    "keywords": [
+        "telegram",
+        "calculator",
+        "bot"
+    ],
+    "repository": "https://github.com/LEGEND-ANKIT/TELEGRAM-CALCULATOR-BOT",
+    "website": "https://github.com/LEGEND-ANKIT",
+    "success_url": "https://github.com/LEGEND-ANKIT",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token from @BotFather",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "Get this value from my.telegram.org",
+            "value": "14627413"
+            "required": "True"
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org",
+            "value": "4d5ff4db45a7e931930d0c923a7fb295"
+            "required": "True"
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
